@@ -28,12 +28,53 @@ This folder contains two files `bugs_study.csv` and `manual_analysis.xlsx`. `bug
 
 <details><summary>bugs_study.csv</summary>
 <p>
-* #
+This SQL file can be imported into MySQL and will create a  `bugs_study` table. Its structure is as below: 
+
+### #
+
 The serial number of the bug.
 
-  * BugID
+### BugID
 
-The unique ID of the bug in the Apache projects. 
+The unique ID of the bug in the Apache projects.
+
+### IsMPLB
+
+Whether the bug is an MPLB. '0' means the bug is SPLB, '1' means the bug is MPLB.
+
+### PL
+
+The name of the PLs involved in the resolution of the bug.
+
+### PLNo
+
+The number of PLs involved in the resolution of the bug.
+
+### LOCM
+
+The number of lines of source code modified in the bug.
+
+### NOFM
+
+The number of source files modified in the bug.
+
+### NODM
+
+The number of directories modified in the bug.
+
+### OT
+
+The time from the creation of a bug report to the final resolution of the bug.
+
+### Entropy
+
+The normalized entropy of the modified source files for fixing the bug during the last 60 days.
+
+### Reopen
+
+Whether the bug was reopened. '0' means the bug has not been reopened, '1' means the bug has been reopened. 
+
+
 </p>
 </details>
 
@@ -56,7 +97,6 @@ Each bug is labelled with a bug resolution category, i.e., a cause for why this 
 Each bug labelled with zero, one, or multiple cross-language calling mechanisms used in this bug resolution.
 </p>
 </details>
-
 
 
 
