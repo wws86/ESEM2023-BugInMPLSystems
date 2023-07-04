@@ -30,11 +30,6 @@ This folder contains two files `bugs_study.csv` and `manual_analysis.xlsx`. `bug
 <p>
   Its structure is as below: 
 
-
-### #
-
-The serial number of the bug.
-
 ### BugID
 
 The unique ID of the bug in the Apache projects.
