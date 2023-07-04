@@ -28,7 +28,8 @@ This folder contains two files `bugs_study.csv` and `manual_analysis.xlsx`. `bug
 
 <details><summary>bugs_study.csv</summary>
 <p>
-This SQL file can be imported into MySQL and will create a  `bugs_study` table. Its structure is as below: 
+  Its structure is as below: 
+
 
 ### #
 
@@ -82,7 +83,8 @@ Whether the bug was reopened. '0' means the bug has not been reopened, '1' means
 
 <details><summary>manual_analysis.xlsx</summary>
 <p>
-This Excel file has three columns, as explained below:
+	This Excel file has three columns, as explained below:
+
 
 ### BugID
 
