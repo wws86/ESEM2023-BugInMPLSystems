@@ -1,6 +1,6 @@
 # Introduction
 
-This repository hosts the artifact for Understanding Resolution of Multi-Language Bugs: An Empirical Study on Apache Projects. `ProjectInfo.pdf` and `NumberofPLsinMPLBs(RQ2).pdf` are the online tables from the paper. Details are given below.
+This repository hosts the artifacts for the ESEM2023 paper entitled "Understanding Resolution of Multi-Language Bugs: An Empirical Study on Apache Projects." `ProjectInfo.pdf` and `NumberofPLsinMPLBs(RQ2).pdf` are the online tables for the paper. Details are given below.
 
 ## ProjetInfo.pdf
 
@@ -28,7 +28,7 @@ This folder contains two files `bugs_study.csv` and `manual_analysis.xlsx`. `bug
 
 <details><summary>bugs_study.csv</summary>
 <p>
-  
+
   The file structure is as below: 
 
 
