@@ -28,6 +28,7 @@ This folder contains two files `bugs_study.csv` and `manual_analysis.xlsx`. `bug
 
 <details><summary>bugs_study.csv</summary>
 <p>
+  
   The file structure is as below: 
 
 
@@ -79,7 +80,9 @@ Whether the bug was reopened. '0' means the bug has not been reopened, '1' means
 
 <details><summary>manual_analysis.xlsx</summary>
 <p>
-	This Excel file has three columns, as explained below:
+
+  This Excel file has three columns, as explained below:
+
 
 
 ### BugID
